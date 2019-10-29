@@ -1,6 +1,8 @@
 import 'package:flutter/material.dart';
 //import 'package:flutter/src/widgets/framework.dart';
-import 'utils/textSection.dart';
+import 'utils/image_banner.dart';
+import 'utils/text_section.dart';
+
 
 class Location extends StatelessWidget{
   @override
@@ -13,6 +15,7 @@ class Location extends StatelessWidget{
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
+          ImageBanner('assets/images/colorful.jpg'),
           TextSection(Colors.red),
           TextSection(Colors.green), 
           TextSection(Colors.blue),
