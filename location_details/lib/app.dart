@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import 'location.dart';
+import 'location_details.dart';
 import 'utils/styles.dart';
 
 class MyApp extends StatelessWidget{
@@ -16,7 +16,7 @@ class MyApp extends StatelessWidget{
            body1: Body1TextStyle
          ),
       ),
-      home: Location()
+      home: LocationDetails()
     );
   }
 

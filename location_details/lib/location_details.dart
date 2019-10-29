@@ -4,7 +4,7 @@ import 'utils/image_banner.dart';
 import 'utils/text_section.dart';
 
 
-class Location extends StatelessWidget{
+class LocationDetails extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
