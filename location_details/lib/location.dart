@@ -16,9 +16,9 @@ class Location extends StatelessWidget{
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
           ImageBanner('assets/images/colorful.jpg'),
-          TextSection(Colors.red),
-          TextSection(Colors.green), 
-          TextSection(Colors.blue),
+          TextSection('Summary', 'Summary01'),
+          TextSection('Summary', 'Summary02'), 
+          TextSection('Summary', 'Summary03'),
         ],
       )
     );
