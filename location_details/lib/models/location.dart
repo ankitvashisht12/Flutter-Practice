@@ -9,7 +9,7 @@ class Location{
 
   static List<Location> fetchAll() {
     return [
-      Location('Arashiyama Bamboo Grove', 'assets/images/kiyomizu-dera.jpg', [
+      Location('Arashiyama Bamboo Grove', 'assets/images/colorful.jpg', [
         LocationFact('Summary',
             'While we could go on about the ethereal glow and seemingly endless heights of this bamboo grove on the outskirts of Kyoto, the sight\'s pleasures extend beyond the visual realm.'),
         LocationFact('How to Get There',
