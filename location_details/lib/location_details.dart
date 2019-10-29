@@ -1,8 +1,10 @@
 import 'package:flutter/material.dart';
 //import 'package:flutter/src/widgets/framework.dart';
-import 'utils/textSection.dart';
+import 'utils/image_banner.dart';
+import 'utils/text_section.dart';
 
-class Location extends StatelessWidget{
+
+class LocationDetails extends StatelessWidget{
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -13,9 +15,10 @@ class Location extends StatelessWidget{
         mainAxisAlignment: MainAxisAlignment.start,
         crossAxisAlignment: CrossAxisAlignment.stretch,
         children: <Widget>[
-          TextSection(Colors.red),
-          TextSection(Colors.green), 
-          TextSection(Colors.blue),
+          ImageBanner('assets/images/colorful.jpg'),
+          TextSection('Summary', 'Summary01'),
+          TextSection('Summary', 'Summary02'), 
+          TextSection('Summary', 'Summary03'),
         ],
       )
     );
